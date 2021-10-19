@@ -1,1 +1,1 @@
-SELECT * FROM northwind.purchase_orders WHERE created_by >= 3 ORDER BY creates_by DESC;
+SELECT * FROM northwind.purchase_orders WHERE created_by >= 3 ORDER BY creates_by DESC, id;
